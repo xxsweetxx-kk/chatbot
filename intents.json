@@ -1,0 +1,129 @@
+{"intents": [
+    {"tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Hey there!!", "Hi there, how can I help?"],
+            "context": [""]
+           },
+           {"tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+           },
+           {"tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+           },
+           {"tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure if I understood"],
+            "context": [""]
+           },
+           {"tag": "help",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can guide you through the affects climate change can lead to" , "I am here to help explain the facts about climate change"],
+            "context": [""]
+           },
+           {"tag": "greenhouse effect",
+            "patterns": ["What is the greenhouse effect", "How does the greenhouse effect work", "I want to know about greenhouse effect", "define greenhouse effect" , "define greenhouse", "greenhouse effect" ],
+            "responses": ["Greenhouse effect is the warming of Earth's surface and troposphere (the lowest layer of the atmosphere) caused by the presence of water vapour, carbon dioxide, methane, and certain other gases in the air. Of those gases, known as greenhouse gases, water vapour has the largest effect." , "The greenhouse effect is a natural process that warms the Earth's surface. When the Sun's energy reaches the Earth's atmosphere, some of it is reflected back to space and the rest is absorbed and re-radiated by greenhouse gases."],
+            "context": [""]
+           },
+           {"tag": "climate change",
+            "patterns": ["I want to know about climate change", "define climate change", "what is climate change", "climate change" ],
+            "responses": ["Climate change is the long-term alteration of temperature and typical weather patterns in a place",  "Climate change could refer to a particular location or the planet as a whole", "Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns." , "Climate change describes a change in the average conditions such as temperature and rainfall in a region over a long period of time." , "Climate change refers to any significant change in the measures of climate lasting for an extended period of time " , "As the world warms, extreme weather events are becoming more frequent and intense, sea levels are rising, prolonged droughts are putting pressure on food crops, and many animal and plant species are being driven to extinction. It’s hard to imagine what we as individuals can do to resolve a problem of this scale and severity."],
+            "context": [""]
+           },
+           {"tag": "climate",
+            "patterns": ["What Is Climate" , "define climate" , "climate"],
+            "responses": ["the weather conditions prevailing in an area in general or over a long period" , "climate is the description of the long-term pattern of weather in a particular area" , "climate as the average weather for a particular region and time period"],
+            "context": [""]
+           },
+           {"tag": "globalwarming",
+            "patterns": ["Is climate change the same thing as global warming?"],
+            "responses": ["No. “Global warming” refers to an increase in the average temperature near the Earth's surface. “Climate change” refers to the broader set of changes that go along with global warming, including changes in weather patterns, the oceans, ice and snow, and ecosystems."],
+            "context": [""]
+           },
+           {"tag": "warmest year",
+            "patterns": ["Which year is recorded as the warmest year on Earth?" , "What was the warmest year on the modern record?" ],
+            "responses": ["Globally, 2020 was the hottest year on record, effectively tying 2016, the previous record"],
+            "context": [""]
+           },
+           {"tag": "visible signs",
+            "patterns": ["what are the most visible signs?"],
+            "responses": ["You can't see the signs of climate change from one day to the next, but if you compare from year to year, the clues are everywhere. For example, as the Earth has become warmer, the average sea level around the world has risen by nearly 7 inches in the last 100 years, glaciers all over the world are shrinking, and many bird species are shifting northward."],
+            "context": [""]
+           },
+           {"tag": "harm",
+            "patterns": ["Can climate change harm plants and animals?"],
+            "responses": ["Yes. Any change in the climate of an area can affect the plants and animals that live there. Some animals might adapt or move elsewhere, but others could have trouble surviving."],
+            "context": [""]
+           },
+           {"tag": "temperature",
+           "patterns": ["Why is it a problem if the Earth's average temperature gets a little warmer?"],
+           "responses": ["Temperature plays an important role in how nature works, and even a small change in average temperature can have a noticeable impact on plants, animals, and other natural processes."],
+           "context": [""]
+           },
+
+           {"tag": "1998",
+           "patterns": ["Has Earth continued to warm since 1998?"],
+           "responses": ["Yes, evidence shows warming from 1998 to the present, with the six most recent years (2014, 2015, 2016, 2017, 2018, and 2019) being the six warmest years globally since 1880."],
+           "context": [""]
+           },
+
+           {"tag": "NASA",
+           "patterns": ["What’s NASA got to do with climate change?"],
+           "responses": ["NASA’s role is to make observations of our Earth system that can be used by the public, policymakers and to support strategic decisions."],
+           "context": [""]
+           },
+
+           {"tag": "prevent",
+           "patterns": ["Is it too late to prevent climate change?"],
+           "responses": ["Humans have caused major climate changes to happen already, and we have set in motion more changes still. Even if we stopped emitting greenhouse gases today, global warming would continue to happen for at least several more decades, if not centuries."],
+           "context": [""]
+           },
+
+           {"tag": "difference",
+           "patterns": ["What’s the difference between weather and climate?"],
+           "responses": ["Weather refers to the more local changes in the climate we see around us, on short timescales from minutes to hours to days to weeks. Examples are familiar – rain, snow, clouds, winds, thunderstorms, heat waves and floods. Climate refers to longer-term averages and can be thought of as the weather averaged over several seasons, years or decades."],
+           "context": [""]
+           },
+
+           {"tag": "Sun global warming",
+           "patterns": ["Is the Sun causing global warming?"],
+           "responses": ["The Sun can influence Earth’s climate, but it isn’t responsible for the warming trend we’ve seen over the past few decades."],
+           "context": [""]
+           },
+
+           {"tag": "ozone hole",
+           "patterns": ["Is the ozone hole causing climate change?"],
+           "responses": ["The ozone hole is not causing global warming, but it is affecting atmospheric circulation"],
+           "context": [""]
+           },
+
+           {"tag": "scientists",
+           "patterns": ["Do scientists agree on climate change?"],
+           "responses": ["Yes, the vast majority of actively publishing climate scientists – 97 percent – agree that humans are causing global warming and climate change."],
+           "context": [""]
+           },
+
+           {"tag": "carbon",
+           "patterns": ["How does carbon get into living things?"],
+           "responses": ["Plants take in CO2. They keep the carbon and give away the oxygen. Animals breathe in the oxygen and breathe out carbon dioxide."],
+           "context": [""]
+           },
+
+           {"tag": "causes",
+           "patterns": ["causes of climate change"],
+           "responses": ["Humanity's increased use of fossil fuels such as coal, oil and gas to generate electricity, run cars and other forms of transport, and power manufacturing and industry." , "Deforestation because living trees absorb and store carbon dioxide."],
+           "context": [""]
+           },
+
+           {"tag": "stop",
+           "patterns": ["What can we do to stop it?"],
+           "responses": ["There are lots of things you, your friends, and your family can do each day to reduce greenhouse gas emissions", 
+           "Turn off your computer and other electronic devices when you're not using them." ,"Drive less. Instead, walk, ride your bike, or use public transportation if you can. Power your home with renewable energy.", "Create less waste. Use energy wisely — and save money too. Recycle used paper, cans, bottles, and other materials."],
+           "context": [""]
+           }
+]
+}
